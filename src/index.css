@@ -1,0 +1,37 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  background-color: aqua;
+}
+
+.search-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  width: 200px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.gallery li {
+  margin-right: 10px;
+}
+
+.btn-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
